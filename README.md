@@ -15,6 +15,29 @@ This project processes a video file frame-by-frame, detects all people present u
 
 ---
 
+## 📸 Output Screenshots
+
+> Replace the placeholders below with your own screenshots once you've run the script. Save your images inside a `screenshots/` folder in the repo root, then reference them as shown.
+
+```
+.
+├── screenshots/
+│   ├── safe_distance.png
+│   └── violation_detected.png
+```
+
+| Safe Distancing | Violation Detected |
+|---|---|
+| ![Safe distancing example](screenshots/safe_distance.png) | ![Violation detected example](screenshots/violation_detected.png) |
+
+You can also embed a short GIF or clip of the output video for a quick preview:
+
+```markdown
+![Demo](screenshots/demo.gif)
+```
+
+---
+
 ## ✨ Features
 
 - 🧍 **Person Detection** — Uses YOLOv11 (nano variant by default) for fast, accurate detection.
@@ -58,6 +81,9 @@ This project processes a video file frame-by-frame, detects all people present u
 ├── video.mp4                       # Input video (provide your own)
 ├── output.mp4                      # Generated output (created on run)
 ├── yolo11n.pt                      # YOLOv11 weights (auto-downloaded on first run)
+├── screenshots/                    # Output screenshots/GIFs for the README
+│   ├── safe_distance.png
+│   └── violation_detected.png
 └── README.md
 ```
 
